@@ -9,10 +9,8 @@ Authors: JT Guo
 Summary: 简介
 ---
 
-```julia
-@time
-```
+{% notebook python3.ipynb %}
 
-```R
-system.time
-```
+{% notebook R_3.5.0.ipynb %}
+
+{% notebook julia_1.0.3.ipynb %}
