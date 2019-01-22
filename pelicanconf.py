@@ -12,6 +12,13 @@ TIMEZONE = 'Asia/Shanghai'
 
 DEFAULT_LANG = 'en'
 
+PLUGIN_PATHS = ['plugins']
+PLUGINS = ['ipynb.liquid']
+MARKUP = ('md', )
+# LIQUID_CONFIGS = (("IPYNB_SKIP_CSS", "False", ""), )
+
+THEME = "themes/pelican-JuPyR"
+
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
