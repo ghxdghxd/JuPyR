@@ -15,7 +15,7 @@ DEFAULT_LANG = 'en'
 PLUGIN_PATHS = ['plugins']
 PLUGINS = ['ipynb.liquid']
 MARKUP = ('md', )
-# LIQUID_CONFIGS = (("IPYNB_SKIP_CSS", "False", ""), )
+LIQUID_CONFIGS = (("IPYNB_SKIP_CSS", "False", ""), )
 
 THEME = "themes/pelican-JuPyR"
 

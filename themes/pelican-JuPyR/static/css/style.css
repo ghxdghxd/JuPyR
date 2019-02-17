@@ -40,6 +40,6 @@ pre {
 .entry-content {
     display: flex;
 }
-.entry-content notebook {
-    width: auto;
+.entry-content #notebook {
+    width: -webkit-fill-available;
 }
